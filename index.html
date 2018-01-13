@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>卡卡颂计分助手</title>
+    <meta name="keywords" content="carcassonne" />
+    <meta name="description" content="卡卡颂计分助手" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+</head>
+
+<body>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <div class="navbar-item">
+                <strong>卡卡颂计分助手</strong>
+            </div>
+
+            <button class="button navbar-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="card">
+            <header class="card-header">
+                <p class="card-header-title">
+                    <span class="icon is-small">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <span>&ensp;玩家#1得分</span>
+                </p>
+                <a href="#" class="card-header-icon" aria-label="more options">
+                    <span class="icon">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </header>
+            <div class="card-content">
+                <div class="content">
+                    <article class="media">
+                        <div class="media-content">
+                            <div class="content">
+                                <progress class="progress is-primary" value="15" max="100">30%</progress>
+                            </div>
+                        </div>
+                        <div class="media-right">
+                            <h1 class="title">30</h1>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <footer class="card-footer">
+                <div class="card-footer-item">
+                    <div class="buttons has-addons">
+                        <a class="button is-primary">
+                            <span class="icon is-small">
+                                <i class="fas fa-minus"></i>
+                            </span>
+                        </a>
+                        <span class="button is-light">+0</span>
+                        <a class="button is-primary">
+                            <span class="icon is-small">
+                                <i class="fas fa-plus"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer-item">
+                    <div class="buttons has-addons">
+                        <a class="button is-rounded is-info is-outlined">
+                            <!-- <span class="icon is-small">
+                                <i class="fas fa-plus"></i>
+                            </span> -->
+                            <span>+&ensp;4</span>
+                        </a>
+                        <a class="button is-rounded is-info is-outlined">
+                            <!-- <span class="icon is-small">
+                                <i class="fas fa-plus"></i>
+                            </span> -->
+                            <span>+&ensp;6</span>
+                        </a>
+                        <a class="button is-rounded is-info is-outlined">
+                            <!-- <span class="icon is-small">
+                                <i class="fas fa-plus"></i>
+                            </span> -->
+                            <span>+10</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer-item">
+                    <div class="buttons">
+                        <a class="button is-success">
+                            <span class="icon is-small">
+                                <i class="fas fa-check"></i>
+                            </span>
+                        </a>
+                        <a class="button is-danger is-outlined">
+                            <span class="icon is-small">
+                                <i class="fas fa-undo"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>
