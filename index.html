@@ -19,11 +19,24 @@
                 <strong>卡卡颂计分助手</strong>
             </div>
 
-            <button class="button navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <div class="navbar-item">
+                <div class="field">
+                    <div class="control has-icons-left">
+                        <div class="select is-rounded is-warning">
+                            <select>
+                                <option>2人</option>
+                                <option selected>3人</option>
+                                <option>4人</option>
+                                <option>5人</option>
+                                <option>6人</option>
+                            </select>
+                        </div>
+                        <div class="icon is-small is-left">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -34,24 +47,60 @@
                     <span class="icon is-small">
                         <i class="fas fa-user"></i>
                     </span>
-                    <span>&ensp;玩家#1得分</span>
+                    <span>&ensp;玩家得分</span>
                 </p>
-                <a href="#" class="card-header-icon" aria-label="more options">
-                    <span class="icon">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                    </span>
-                </a>
             </header>
             <div class="card-content">
                 <div class="content">
                     <article class="media">
+                        <div class="media-left">
+                            <h1 class="title is-6">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                </label>
+                            </h1>
+                        </div>
                         <div class="media-content">
                             <div class="content">
-                                <progress class="progress is-primary" value="15" max="100">30%</progress>
+                                <progress class="progress is-danger" value="15" max="100">30%</progress>
                             </div>
                         </div>
                         <div class="media-right">
-                            <h1 class="title">30</h1>
+                            <h1 class="title is-6">30</h1>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <div class="media-left">
+                            <h1 class="title is-6">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                </label>
+                            </h1>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <progress class="progress is-warning" value="15" max="100">30%</progress>
+                            </div>
+                        </div>
+                        <div class="media-right">
+                            <h1 class="title is-6">30</h1>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <div class="media-left">
+                            <h1 class="title is-6">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                </label>
+                            </h1>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <progress class="progress is-success" value="15" max="100">30%</progress>
+                            </div>
+                        </div>
+                        <div class="media-right">
+                            <h1 class="title is-6">30</h1>
                         </div>
                     </article>
                 </div>
